@@ -5,7 +5,7 @@ class NewVisitorTest(unittest.TestCase):
 
   def setUp(self):
     self.browser = webdriver.Firefox()
-    self.browser.implicitly_Wait(3)
+    self.browser.implicitly_wait(3)
     self.browser.get('http://localhost:8000')
 
   def tearDown(self):
